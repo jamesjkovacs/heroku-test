@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pinned - Login</title>
+    <script src="/lib/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="/lib/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css">
+  </head>
+  <body style="padding-top: 50px;">
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+
+            <a class="brand">
+              Pinned Contacts
+            </a>
+
+            <ul class="nav pull-right">
+              <li><a href="/">Logout</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="offset2">
+            <div class="span8">
+            <form class="well form-horizontal" action="/login" method="post">
+                    <fieldset>
+                      <div class="control-group">
+                        <label class="control-label" for="username">User Name</label>
+                        <div class="controls">
+                          <input type="text" class="input-xlarge" name="username" id="username">
+                        </div>
+                      </div>
+                      <div class="control-group">
+                        <label class="control-label" for="password">Password</label>
+                        <div class="controls">
+                            <input type="password" class="input-xlarge" name="password" id="password"> 
+                        </div>
+                      </div>
+                      <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                        <button class="btn">Cancel</button>
+                      </div>
+                   </fieldset>
+            </form>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

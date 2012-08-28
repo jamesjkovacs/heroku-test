@@ -1,0 +1,20 @@
+production:
+    MONGOLABS_DATABASE: pinned_production
+    MONGOLABS_HOST: ds037097.mongolab.com
+    MONGOLABS_PORT: 37097
+    MONGOLABS_PASSWD: letmein123
+    MONGOLABS_USER: comingsoon
+    
+development: 
+    MONGOLABS_DATABASE: pinned_development
+    MONGOLABS_HOST: ds037047.mongolab.com
+    MONGOLABS_PORT: 37047
+    MONGOLABS_PASSWD: letmein123
+    MONGOLABS_USER: comingsoon
+    
+test:
+    MONGOLABS_DATABASE: pinned_test
+    MONGOLABS_HOST: ds037047.mongolab.com
+    MONGOLABS_PORT: 37047
+    MONGOLABS_PASSWD: letmein123
+    MONGOLABS_USER: comingsoon

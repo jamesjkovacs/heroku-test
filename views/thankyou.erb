@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Coming Soon Page</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- JS -->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/countdown.js"></script>
+    
+    <script>
+    
+        $(document).ready(function(){
+            $("#countdown").countdown({
+                date: "1 November 2012 12:00:00",
+                format: "on"
+            },
+            
+            function() {
+                // callback function
+            });
+        });
+    
+    </script>
+</head>
+<body>
+    
+
+    <!-- LOGO   -->
+    <header class="container">
+        <h1 style="font-size: 4em; line-height: 1.3em;">Pinned</h1>
+        <img src="images/thankyou.jpg" alt="Coming Soon Page" />
+    </header>
+    
+    <!-- SIGNUP -->
+    <div class="container">
+        <h2>
+            <br />
+        </h2>
+
+        <a href="/" class="button">Go Back</a>
+
+
+    </div> <!-- end container -->
+    
+</body>
+</html>
